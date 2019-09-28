@@ -10,7 +10,23 @@
 
 </head>
 <body>
+<div th:replace="base :: nav"></div>
 
+<form>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
+<div th:replace="base :: footer"></div>
 
 <!--Bootstrap JS-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -12,13 +12,13 @@ public class JacobController {
 
     @RequestMapping("/transportation")
     public String trans(){
-        return "transportation";
+        return "jacob/transportation/transportation";
     }
 
     @GetMapping("/provideTrans")
     public String provideTrans(){
 
-        return "provideTrans";
+        return "jacob/transportation/provideTrans";
     }
     @PostMapping("/provideTrans")
     public String postProvideTrans(){
@@ -27,7 +27,7 @@ public class JacobController {
 
     @GetMapping("/requestTrans")
     public String requestTrans(){
-        return "requestTrans";
+        return "jacob/transportation/requestTrans";
     }
     @PostMapping("/requestTrans")
     public String postRequestTrans(){
@@ -39,12 +39,12 @@ public class JacobController {
     @RequestMapping("/translation")
     public String translation(){
 
-        return "translation";
+        return "jacob/translation/translation";
     }
 
     @GetMapping("/provideLang")
     public String provideLang(){
-        return "provideLang";
+        return "jacob/translation/provideLang";
     }
     @PostMapping("/provideLang")
     public String postprovideLang(){
@@ -53,7 +53,7 @@ public class JacobController {
 
     @GetMapping("/requestLang")
     public String requestLang(){
-        return "requestLang";
+        return "jacob/translation/requestLang";
     }
     @PostMapping("/requestLang")
     public String postRequestLang(){
@@ -62,6 +62,6 @@ public class JacobController {
 
     @RequestMapping("/formsuccess")
     public String formsuccess(){
-        return "formsuccess";
+        return "jacob/formsuccess";
     }
 }
