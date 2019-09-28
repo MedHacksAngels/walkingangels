@@ -1,4 +1,4 @@
-package com.medhacks.walkingangels;
+package com.medhacks.walkingangels.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,4 +1,4 @@
-package com.medhacks.walkingangels;
+package com.medhacks.walkingangels.security;
 
 import javax.persistence.*;
 import java.util.Collection;

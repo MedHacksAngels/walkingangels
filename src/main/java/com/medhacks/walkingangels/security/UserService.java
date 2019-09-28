@@ -1,4 +1,4 @@
-package com.medhacks.walkingangels;
+package com.medhacks.walkingangels.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

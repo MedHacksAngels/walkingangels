@@ -1,6 +1,6 @@
 // this java class sets up the app to restrict access. by default, if access is not specified, it is denied.
 
-package com.medhacks.walkingangels;
+package com.medhacks.walkingangels.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

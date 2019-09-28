@@ -2,6 +2,10 @@
 
 package com.medhacks.walkingangels;
 
+import com.medhacks.walkingangels.security.Role;
+import com.medhacks.walkingangels.security.RoleRepository;
+import com.medhacks.walkingangels.security.User;
+import com.medhacks.walkingangels.security.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
