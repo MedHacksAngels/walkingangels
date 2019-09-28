@@ -9,7 +9,10 @@ import javax.persistence.Id;
 
 @Entity
 public class Service {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 41ccf6fac23f98d115f0f27a5cad8b777aabbea5
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;

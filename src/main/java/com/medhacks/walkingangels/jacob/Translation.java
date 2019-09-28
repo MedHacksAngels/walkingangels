@@ -1,5 +1,6 @@
 package com.medhacks.walkingangels.jacob;
 
+<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,4 +18,12 @@ public class Translation {
     private String langTo;
 
 
+=======
+import com.medhacks.walkingangels.jen.Service;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Translation extends Service {
+>>>>>>> 41ccf6fac23f98d115f0f27a5cad8b777aabbea5
 }
