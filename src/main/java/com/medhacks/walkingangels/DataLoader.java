@@ -2,6 +2,8 @@
 
 package com.medhacks.walkingangels;
 
+import com.medhacks.walkingangels.jacob.Translation;
+import com.medhacks.walkingangels.jacob.TranslationRepository;
 import com.medhacks.walkingangels.jen.Service;
 import com.medhacks.walkingangels.security.Role;
 import com.medhacks.walkingangels.security.RoleRepository;
@@ -26,6 +28,9 @@ public class DataLoader implements CommandLineRunner {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private TranslationRepository translationRepository;
+
     @Override
     public void run(String...strings) throws Exception{
 
@@ -45,7 +50,8 @@ public class DataLoader implements CommandLineRunner {
         user.setRoles(Arrays.asList(adminRole));
         userRepository.save(user);
 
-
+        Translation translation = new Translation("English", "British");
+        translationRepository.save(translation);
 
     }
 }

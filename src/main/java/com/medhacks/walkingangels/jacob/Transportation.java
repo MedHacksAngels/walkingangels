@@ -6,4 +6,15 @@ import javax.persistence.Entity;
 
 @Entity
 public class Transportation extends Service {
+
+    private String transFrom;
+    private String transTo;
+
+    public Transportation() {
+    }
+
+    public Transportation(String transFrom, String transTo) {
+        this.transFrom = transFrom;
+        this.transTo = transTo;
+    }
 }
