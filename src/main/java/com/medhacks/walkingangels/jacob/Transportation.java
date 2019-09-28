@@ -17,4 +17,20 @@ public class Transportation extends Service {
         this.transFrom = transFrom;
         this.transTo = transTo;
     }
+
+    public String getTransFrom() {
+        return transFrom;
+    }
+
+    public void setTransFrom(String transFrom) {
+        this.transFrom = transFrom;
+    }
+
+    public String getTransTo() {
+        return transTo;
+    }
+
+    public void setTransTo(String transTo) {
+        this.transTo = transTo;
+    }
 }

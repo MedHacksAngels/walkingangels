@@ -17,4 +17,20 @@ public class Translation extends Service {
         this.langFrom = langFrom;
         this.langTo = langTo;
     }
+
+    public String getLangFrom() {
+        return langFrom;
+    }
+
+    public void setLangFrom(String langFrom) {
+        this.langFrom = langFrom;
+    }
+
+    public String getLangTo() {
+        return langTo;
+    }
+
+    public void setLangTo(String langTo) {
+        this.langTo = langTo;
+    }
 }
