@@ -2,6 +2,7 @@
 
 package com.medhacks.walkingangels;
 
+import com.medhacks.walkingangels.jen.Service;
 import com.medhacks.walkingangels.security.Role;
 import com.medhacks.walkingangels.security.RoleRepository;
 import com.medhacks.walkingangels.security.User;
@@ -15,7 +16,6 @@ import java.util.Arrays;
 
 @Component
 public class DataLoader implements CommandLineRunner {
-
 
     @Autowired
     UserRepository userRepository;
