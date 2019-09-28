@@ -1,5 +1,7 @@
 package com.medhacks.walkingangels;
 
+import com.medhacks.walkingangels.jen.Service;
+import com.medhacks.walkingangels.jen.Womens;
 import com.medhacks.walkingangels.security.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
